@@ -1,0 +1,44 @@
+
+#logo{line-height: 77px;height: 77px;}
+#logo p{padding-left: 280px;font-size:24px;}
+#logo h1{position: absolute;top: 0;}
+#logo ul li{float: left;width: 130px;height: 38px;line-height: 38px;font-size: 18px;text-align: center;margin-left: 50px;}
+#logo ul li.active{background: #f60;}
+#logo ul li.active a{color: #fff;}
+
+
+
+#banner{background: url(../images/vipbg.jpg) no-repeat;}
+#banner .left ul{width: 220px;height: 470px;border: 2px solid #fff;}
+#banner .left ul li{padding-left: 10px;position: relative;margin-bottom: 40px;}
+#banner .left ul li span{width:80px;}
+#banner .left ul li img{width: 140px;height: 100px;position: absolute;right: 0;top: 0;}
+#banner .left ul li:first-child{height: 40px;line-height: 40px;}
+
+#banner .middle img{width: 730px;height: 474px;}
+#banner .right{width: 224px;border: 2px solid #fff;height: 470px;}
+#banner .right .pinkbox{position: relative;transform: translateX(-5px);}
+#banner .right .white{transform: rotate(10deg);position: absolute;top: -2px;right: 20px;}
+#banner .right .small{transform: rotate(10deg);position: absolute;top: -2px;right: -10px;}
+
+
+#popular{padding: 20px 0;}
+#popular ul li{float: left;width: 292px;height: 140px;margin-right: 10px;}
+#popular ul li img{width: 292px;height: 140px;}
+#popular ul li:last-child{margin-right: 0;}
+
+
+#oneF .title,#twoF .title,#threeF .title{width: 185px;height: 45px;line-height: 45px;}
+#oneF .pic img{width: 1200px;height: 90px;}
+#oneF .content ul li,#twoF .content ul li{float: left;border: 2px solid #ccc;margin-right: 40px;width: 204px;height: 286px;margin-top: 20px;}
+#oneF .content ul li:nth-child(5),#oneF .content ul li:nth-child(10),#twoF .content ul li:nth-child(5),#twoF .content ul li:nth-child(10){margin-right: 0;}
+
+
+#twoF ul li{height: 310px;}
+
+#threeF ul li{float: left;width: 360px;}
+
+
+
+
+

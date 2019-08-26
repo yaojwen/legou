@@ -1,0 +1,68 @@
+
+
+#logo h1{position: absolute;top: 0;}
+#logo .search{width: 440px;}
+#logo .search .txt{width: 386px;border: 2px solid #f60;height: 32px;}
+#logo .search .btn{width: 50px;border: 0;background:url(../images/bgicon.png);height: 36px;}
+#logo form{width: 450px;}
+#logo select{ appearance:none;outline: none;width:auto;text-align:center;text-align-last: center;}
+#logo .title li{margin-right: 180px;line-height: 20px;font-size: 14px;width: 100px;}
+#logo .title li:last-child{margin-right: 0;}
+#logo input::-webkit-input-placeholder{text-indent: 10px;}
+
+
+
+
+#address .card div:nth-child(2){padding: 0 20px;}
+#address .card div:nth-child(2) i{margin-left: 35px;margin-right: 40px;}
+#address .card div{height: 30px;margin:30px;line-height:30px;text-align: center; }
+#address .card div:nth-child(3){padding:0 15px;}
+#address .card div:first-child{border: 2px solid #ccc;margin-left:60px;width: 120px;position: relative;}
+#address .card .active .on{display: none; width: 10px;height: 10px;background: #f60;position: absolute;bottom: 0;right: 0;margin: 0;padding: 0;border: 0;}
+#address .card .active .on::before {content: '';position: absolute;width: 2px;height: 5px;color: #fff;border-bottom: 1px solid;border-right: 1px solid;left: 50%;top: 50%;transform-origin: center;transform: translate(-40%, -40%) rotate(25deg);}
+#address select{width: 150px;}
+#address .checkmiddle{width: 130px;overflow: hidden;}
+/* 事件 */
+#address .more,#card2{display: none;}
+#address .card.on{border: 1px solid #ccc;}
+
+
+
+
+
+#payfunction .card div{border: 2px solid #ccc;margin-left:60px;width: 120px;position: relative;height: 30px;margin:30px;line-height:30px;text-align: center;}
+#payfunction #card3 .active{border: 2px solid #f60;}
+#payfunction select{width: 150px;}
+#payfunction .checkmiddle{width: 130px;overflow: hidden;}
+#payfunction .addcare{border: 0 !important;}
+
+
+#list{border-bottom: 2px solid #ccc;}
+#list .left{width: 460px;}
+#list .left .test{border: 2px solid #ccc;margin-left: 60px;width: 120px;position: relative;height: 30px;margin: 30px;line-height: 30px;text-align: center}
+#list .left .test .selectbox{width: 75px;overflow: hidden;margin-left: 20px;}
+#list .left #pay{width: 85px !important;}
+#list .left #time{width: 300px !important;}
+#list .left select{padding: 0;}
+#list .left .selectboxspan1{width: 70px !important;overflow: hidden;}
+#list .left .selectboxspan2{width: 280px !important;overflow: hidden;}
+#list .right{width: 740px;height: 200px;margin:20px 0;}
+#list .right img{width: 150px;height: 155px;margin-left: 50px;}
+#list .right span{margin: 30px;}
+
+
+#invoice .title{border: 2px solid #bebebe;width: 1196px;}
+#invoice .information .site{width: 300px;}
+#invoice .btn{width: 150px;height: 60px;}
+
+
+
+#confirm{width: 480px;height: 280px;border: 2px solid #bebebe;box-shadow: 2px 2px 2px rgb(94, 87, 87);position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);display: none;}
+#confirm span{line-height: 42px}
+#confirm .del{line-height: 38px;font-size: 30px;}
+#confirm img{width: 100px;height: 100px;}
+#confirm .true,#confirm .false{width: 120px;height: 40px;}
+
+#Easteregg{width: 400px;height: 400px; position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);display: none;}
+#Easteregg img{border-radius: 100%}
+#Easteregg p{font-size: 38px;position: absolute;left: 50%;margin-left: -95px; bottom:140px;width: 250px;color: #fff;}

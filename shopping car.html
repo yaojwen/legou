@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/shopping car.css">
+
+    <!-- 三级联动 -->
+    <link rel="stylesheet" href="./css/PLUG-city-picker.css">
+    <link rel="stylesheet" href="./css/plug-main.css">
+
+
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <!-- 三级联动 -->
+    <script src="./js/plug-city-picker.data.js"></script>
+    <script src="./js/plug-city-picker.js"></script>
+
+    <script src="./js/shopping car.js"></script>
+</head>
+
+<body onselectstart="return false">
+
+    <!-- header -->
+    <header class="container-fluid">
+        <div class="login clearfix container">
+            <span class="cfff lh28 fl">
+                <a href="./index.html">legochina.cn</a>
+            </span>
+            <p class="fr">欢迎光临
+                <a href="./index.html">乐购</a>,请
+                <a href="./login.html">登录</a>\
+                <a href="./register.html">注册</a>
+            </p>
+        </div>
+    </header>
+
+    <!-- LOGO -->
+    <section id="logo" class="container-fluid">
+        <div class=""></div>
+        <div class="clearfix container top">
+            <h1 class="fl">
+                <a href="#">
+                    <img src="./images/shopping.png" />
+                </a>
+            </h1>
+            <form action="" class="clearfix fr">
+                <div class="search fr clearfix mt10 mb15">
+                    <input type="text" class="txt fl" placeholder="创意文具">
+                    <input type="submit" value='' class="fr btn bgf60 cfff">
+                </div>
+                <!-- <select class="fr">
+                    <option value="">--配送至--</option>
+                    <option value="">成都市锦江区</option>
+                    <option value="">成都市成华区</option>
+                    <option value="">成都市武侯区</option>
+                    <option value="">成都市区</option>
+                    <option value="">成都市高新区</option>
+                </select> -->   
+                <div class="fr" style="position: relative;">
+                    <!-- container -->
+                    <input readonly type="text" data-toggle="city-picker" placeholder="选择省/市/区县/镇">
+                </div>
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+            </form>
+
+        </div>
+        <div class="title container mt20 mb20">
+            <p class="fs20 cf60 mb10">全部商品&nbsp;（
+                <span id="totle">0</span>）</p>
+            <ul class='clearfix bgf2f2f2 pd20'>
+                <li>
+                    <button id="checkalltop" class='checklis'></button>全选
+                </li>
+                <li>商品</li>
+                <li>单价</li>
+                <li>数量</li>
+                <li>小计</li>
+                <li>操作</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 总价 -->
+    <section id="content" class="container">
+        <ul class="mt20">
+            <li>
+                <input type="checkbox" name="" id="id" class='checklis commodity'>
+                <img src="./images/产品列表页/book4.jpg" alt="">
+                <i>从你的全世界路过</i>
+                <em>41.00</em>
+                <button class="first">-</button>
+                <span>0</span>
+                <button class="last">+</button>
+                <label>0</label>
+                <i class="del ft12 cbe">删除</i>
+            </li>
+            <li>
+                <input type="checkbox" name="" id="id" class='checklis commodity'>
+                <img src="./images/产品列表页/book2.jpg" alt="">
+                <i>从你的全世界走过</i>
+                <em>19.99</em>
+                <button class="first">-</button>
+                <span>0</span>
+                <button class="last">+</button>
+                <label>0</label>
+                <i class="del ft12 cbe">删除</i>
+            </li>
+            <li>
+                <input type="checkbox" name="" id="id" class='checklis commodity'>
+                <img src="./images/产品列表页/book3.jpg" alt="">
+                <i>从你的全世界躺过</i>
+                <em>21.00</em>
+                <button class="first">-</button>
+                <span>0</span>
+                <button class="last">+</button>
+                <label>0</label>
+                <i class="del ft12 cbe">删除</i>
+            </li>
+            <li>
+                <input type="checkbox" name="" id="id" class='checklis commodity'>
+                <img src="./images/产品列表页/book7.jpg" alt="">
+                <i>从你的全世界爬过</i>
+                <em>23.33</em>
+                <button class="first">-</button>
+                <span>0</span>
+                <button class="last">+</button>
+                <label>0</label>
+                <i class="del ft12 cbe">删除</i>
+            </li>
+            <li>
+                <input type="checkbox" name="" id="id" class='checklis commodity'>
+                <img src="./images/产品列表页/book5.jpg" alt="">
+                <i>从你的全世界❀过</i>
+                <em>14.00</em>
+                <button class="first">-</button>
+                <span>0</span>
+                <button class="last">+</button>
+                <label>0</label>
+                <i class="del ft12 cbe">删除</i>
+            </li>
+            <li class="clearfix">
+                <button id="checkalldown" class='checklis'></button>全选
+                <a href="#">删除选中商品</a>
+                <i>已选择（？）件商品</i>
+                <button id="addbutton" class="fr fs20">去结算</button>
+                <div class="fr mr40">
+                    <i>总价</i>
+                    <label class="fs18 cf60">0</label>元</li>
+           
+        </ul>
+    </section>
+
+
+    <!-- 猜你喜欢 -->
+    <section id="youlike" class="container mt50">
+        <div class="title clearfix fs18">
+            <h3 class="fl cbe clearfix">
+                <span class="bgf60 cfff txtcenter fs20 mr10">猜你喜欢</span>
+
+            </h3>
+        </div>
+        <ul class="clearfix container">
+            <li class="on">
+                <a href="#">
+                    <h3>黑爵&nbsp;电竞游戏鼠标</h3>
+                    <p>唯美外观&nbsp;微米型喷雾</p>
+                    <img src="./images/qqqqq4.png" alt="img">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <h3>黑爵&nbsp;电竞游戏鼠标</h3>
+                    <p>唯美外观&nbsp;微米型喷雾</p>
+                    <img src="./images/qqqqq4.png" alt="img">
+                    <p>&yen;:39&nbsp;
+                        <del>&yen;:79</del>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <h3>黑爵&nbsp;电竞游戏鼠标</h3>
+                    <p>唯美外观&nbsp;微米型喷雾</p>
+                    <img src="./images/qqqqq4.png" alt="img">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <h3>黑爵&nbsp;电竞游戏鼠标</h3>
+                    <p>唯美外观&nbsp;微米型喷雾</p>
+                    <img src="./images/qqqqq4.png" alt="img">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <h3>黑爵&nbsp;电竞游戏鼠标</h3>
+                    <p>唯美外观&nbsp;微米型喷雾</p>
+                    <img src="./images/qqqqq4.png" alt="img">
+                </a>
+            </li>
+            <div style="clear: both"></div>
+        </ul>
+
+    </section>
+
+    <!-- bg图 -->
+    <section id="wowworld" class="container mt40">
+        <img src="./images/QQ图片20190615221042.jpg" alt="">
+    </section>
+
+
+
+
+    <!-- footer -->
+    <footer class="container-fluid mt20 goTop" style="margin-top: 0">
+        <div class="footerTop container-fluid ">
+            <div class="container txtcenter">
+                <img src="./images/222_11.png" alt="">
+                <img src="./images/222_13.png" alt="">
+                <img src="./images/222_15.png" alt="">
+                <img src="./images/222_17.png" alt="">
+            </div>
+        </div>
+
+        <div class="clearfix mt30 container">
+            <!--logo-->
+            <img src="./images/logo_00.png" alt="" class="fr mr20">
+            <div class="fr">
+                <dl>
+                    <dt class="font16">购物指南</dt>
+                    <dd>
+                        <a href="#">购物流程</a>
+                    </dd>
+                    <dd>
+                        <a href="#">发票制度</a>
+                    </dd>
+                    <dd>
+                        <a href="#">账户管理</a>
+                    </dd>
+                    <dd>
+                        <a href="#">会员优惠</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="font16">支付方式</dt>
+                    <dd>
+                        <a href="#">货到付款</a>
+                    </dd>
+                    <dd>
+                        <a href="#">网上支付</a>
+                    </dd>
+                    <dd>
+                        <a href="#">礼品卡支付</a>
+                    </dd>
+                    <dd>
+                        <a href="#">银行转帐</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="font16">订单服务</dt>
+                    <dd>
+                        <a href="#">订单配送查询</a>
+                    </dd>
+                    <dd>
+                        <a href="#">订单状态说明</a>
+                    </dd>
+                    <dd>
+                        <a href="#">自助取消订单</a>
+                    </dd>
+                    <dd>
+                        <a href="#">自助修改订单</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="font16">退换货</dt>
+                    <dd>
+                        <a href="#">退换货政策</a>
+                    </dd>
+                    <dd>
+                        <a href="#">自助申请退换货</a>
+                    </dd>
+                    <dd>
+                        <a href="#">退换货进度查询</a>
+                    </dd>
+                    <dd>
+                        <a href="#">退款方式和时间</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="font16">商家服务</dt>
+                    <dd>
+                        <a href="#">商家中心</a>
+                    </dd>
+                    <dd>
+                        <a href="#">运营服务</a>
+                    </dd>
+                    <dd>
+                        <a href="#">加入尾品汇</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="container txtcenter mt40">
+            <p>
+                <a href="#">公司简介</a>|
+                <a href="#">Investor Relations</a>|
+                <a href="#">网站联盟</a>|
+                <a href="#">乐购招商</a>|
+                <a href="#">机构销售</a>|
+                <a href="#">手机乐购</a>|
+                <a href="#">官方Blog</a>|
+                <a href="#">热词搜索</a>
+            </p>
+            <p class="mt20">
+                Copyright (C) 乐购网 2004-2016, All Rights Reserved
+            </p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

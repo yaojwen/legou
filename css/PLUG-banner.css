@@ -1,0 +1,12 @@
+.banner { position: relative; overflow: auto; text-align: center;margin-left: 200px;height: 450px !important;}   
+.banner li { list-style: none; }  
+.banner ul li { float: left; }  
+#b04 { width: 1000px;}           
+#b04 .dots { position: absolute; left: 0; right: 0; bottom: 20px;} 
+ 
+#b04 .dots li{display: inline-block;width: 20px;height: 20px;margin: 0 4px;background: #d3d3d3 !important;border: 2px solid #fff; border-radius: 100%; cursor: pointer; opacity: .6;color: #fff;-webkit-transition: background .5s, opacity .5s; -moz-transition: background .5s, opacity .5s;transition: background .5s, opacity .5s;} 
+
+#b04 .dots li.active{background: #fff;opacity: 1;}
+#b04 .arrow { position: absolute; top: 200px;}
+#b04 #al { left: 15px;}
+#b04 #ar { right: 15px;}

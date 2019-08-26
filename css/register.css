@@ -1,0 +1,27 @@
+#logo{box-shadow:0px -2px 18px 0px black;font-weight: bold;line-height: 77px;height: 77px;}
+#logo div{width: 1200px;}
+#logo h1{position: absolute;top: 0;}
+#logo p{padding-left: 280px;font-size: 28px;color: #666666;}
+#logo span{letter-spacing: 1.5px;}
+#logo span i{font-style: normal;}
+
+
+#myform .case{width: 388px;height: 42px;border: 1px solid #ccc;margin-bottom: 50px;margin-left: 400px;}
+#myform .case.last{margin-bottom: 10px;}
+#myform .case span{margin-left: 10px;font-size: 18px;color: #666666;line-height: 42px;width: 110px; font-size: 16px !important;}
+#myform .case input{border: 0;height: 40px; width: 260px;outline: none;}
+#myform .case input::placeholder{color: #ccc;}
+#myform .case .phone{width: 120px;height:38px;background: #e6e6e6;border: 0;position: absolute;top: 2px;right: 2px; }
+#myform .case #code{width: 120px;height:38px;background: rgba(47, 47, 241, 0.918);border: 0;position: absolute;top: 2px;right: 2px; color: #fff;}
+
+#myform .arguement{margin-left: 400px;} 
+#myform .now{width: 390px;height: 44px;margin-left: 400px;line-height: 44px;letter-spacing: 1px;}
+#myform{margin: 0 auto !important}
+
+footer{width: 1200px;border-top:2px solid #ccc;margin: 0 auto;margin-top: 40px;padding-bottom: 60px;}
+
+
+body a:hover{color: #f60;}
+
+#myform .tips{position: absolute;margin-top: 5px;font-size: 14px;color: #bbb;}
+

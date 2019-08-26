@@ -1,0 +1,111 @@
+/* 导航部分 */
+nav #navitems{position: relative;}
+#navitems .logo{position: absolute;top:0;left: 0; transform: translateY(-84px);}
+#navitems ul{margin-right: 80px;}
+#navitems ul li{float: left;padding: 0 15px;font-size: 16px;}
+#navitems ul li a:hover{color: #f60;}
+
+/* 背景图 */
+#b04{margin-left: 0;width: 970px;}
+#banner .banner{height: 440px !important;}
+#banner .dots{transform: translateY(10px);}
+        
+#banner .contain {width: 190px;height: 400px;}
+#banner .contain li {float: left;list-style: none;width: 190px;height:80px;transition: all .5s;position: relative;overflow: hidden;border-left: 2px solid rgba(255, 255, 255, .8);box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);}
+#banner .contain li:first-child{border-radius: 10px}
+#banner .contain li img{margin-top: 20px;height: 100px;width: 100px;}
+#banner .contain ul:hover li {height:60px ;}
+#banner .contain ul li:hover {height:160px ;}
+#banner .contain li .title {position: absolute;width: 100%;height: 36px;background-color: rgba(0, 0, 0, .5);text-indent: 2em;line-height: 36px;bottom: 0px;left: 0;border-radius: 0 0 10px 10px;}
+#banner .contain span{margin-top: 20px;margin-right: 5px;margin-left: 5px;
+width: 80px;
+color: #000;}
+#banner .contain a {color: #fff;text-decoration: none;}
+
+
+
+/* 折扣区 */
+#discount h3{width: 220px;height: 48px;line-height: 48px;}
+#discount img{margin: 20px 20px 0 20px;}
+/* #discount ul li{float: left;padding: 5px 30px;margin-right: 30px;position: relative;box-sizing: border-box;padding-top: 10px;}
+#discount ul li:nth-child(5),#discount ul li:nth-child(10){margin-right: 0;padding: 5px 36px 5px 30px}
+#discount ul li.active{background: #f2f2f2;border-radius: 20%;}
+#discount ul li.active img{border-radius: 30%;} */
+#discount .par_list ul li {width: 216px;height: 300px;border: 2px solid #ddd;list-style-type: none;float: left;margin: 10px;margin-top: 20px;}
+#discount .par_list ul li img {border-radius: 20px;}
+#discount .par_list ul li p.title {color: #666;font-size: 16px;line-height: 40px;}
+#discount .par_list ul li p.jg {color: red;}
+#discount .par_list ul li p:last-child {height: 30px;line-height: 30px;margin-left: 20px;margin-right: 20px;}
+#discount .par_list ul li p.jg span {float: right;width: 80px;height: 30px;background: tomato;color: #fff;line-height: 30px;font-size: 12px;text-align: center;border-radius: 5px;}
+/* #discount .par_list ul li img:hover{width: 190px;height: 170px;opacity: 0.8;transform: translateX(-5px); transition:1s} */
+
+
+
+
+
+
+/*新书推荐 */
+#newbook .left{width: 900px;border: solid 2px #ccc;border-top: #f60 6px solid;}
+#newbook .title{line-height: 38px;}
+#newbook .title span{float: left; width: 50px;font-weight: bold;}
+#newbook .left ul li{float: left;padding: 16px 15px;}
+#newbook .left h5{line-height: 24px;}
+#newbook .left ul li.active{background: #f2f2f2;border-radius: 20%;}
+#newbook .left ul li.active img{border-radius: 30%;}
+#newbook .ebookRight{ width: 280px; height: 496px; border:2px solid #ccc;}
+#newbook .ebookRight li{ border-bottom: 2px solid #ccc;  position: relative}
+#newbook .ebookRight li:last-child{ border:none;}
+#newbook .ebookRight li span{ position: absolute; left: -20px; top: 15px;}
+#newbook .ebookRight li h4{ line-height: 48px;}
+#newbook .ebookRight li h4.on{ display: none;}
+#newbook .ebookRight li div{ display: none;}
+#newbook .ebookRight li div.active{ display: block}
+
+
+
+/* 独家提供 */
+#offers .title ul li{float: left;padding: 0 15px 0 15px;font-size: 16px;font-weight: bold;}
+#offers .title ul li.active{background: #f60;color: #fff;}
+#offers .title{line-height: 38px;letter-spacing: 1px;}
+#offers .title span{float: left; width: 50px;font-weight: bold;}
+#offers .pptbox{border: solid 2px #ccc;border-top: #f60 6px solid;box-sizing: border-box;width: 1200px;position: relative;height: 520px;}
+#offers .proImg{ width: 1120px; margin:0 auto; }
+#offers .proImg li{float:left; width: 186px; height: 240px; box-sizing: border-box; line-height: 24px; padding:10px 0;}
+#offers .proImg img{ width: 150px !important; height:150px !important;}
+#offers .controls{width: 180px !important;}
+#offers .pptbox .controls li{margin: 0 5px;}
+
+
+
+/* 猜你喜欢 */
+#youlike .title{height: 38px;line-height: 38px;}
+#youlike .title span{float: left; width: 50px;font-weight: bold;}
+#youlike .content{border: solid 2px #ccc;border-top: #f60 6px solid;box-sizing: border-box;width: 1204px;}
+#youlike .content>ul>li{float: left;padding: 25px;}
+#youlike .content ul li.active{background: #f2f2f2;border-radius: 20%;}
+#youlike .content ul li.active img{border-radius: 30%;}
+
+
+
+/* 精选。。。。 */
+#selection ul li{float: left;}
+
+
+
+
+/* 购物车 */
+#shopping .carbox {width: 260px;height: 100%;position: fixed;top: 0;right: -220px;}
+#shopping .carbox .left {width: 40px;height: 100%;background:rgba(0, 0, 0, .5);position: relative;float: left;}
+#shopping .carbox .left span {color: #fff;font-size: 12px;width: 12px;display: block;background: red;padding: 10px 14px;position: absolute;top: 50%;left: 0;margin-top: -42px;}
+#shopping .carbox .con {width: 220px;height: 100%;background: #ddd;float: left;position: relative;}
+#shopping .carbox .con dl {width: 200px;height: 60px;border-bottom: 1px solid #fff;padding: 10px;}
+#shopping .carbox .con dl dt {width: 60px;height: 60px;float: left;}
+#shopping .carbox .con dl dd {width: 120px;float: right;font-size: 12px;line-height: 20px;margin-right: 10px;}
+#shopping .carbox .con .del{position: absolute;bottom: 10px;left: 10px;width: 80px;height: 30px;background: #666;color: #fff;border-radius: 10px;}
+#shopping .carbox .con .go{position: absolute;bottom: 10px;right: 10px;width: 80px;height: 30px;background: #f60;color: #fff;border-radius: 10px;}
+
+/* footer */
+
+
+
+

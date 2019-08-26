@@ -1,0 +1,35 @@
+
+#logo div{width: 1200px;margin: 0 auto !important;height: 77px;line-height: 77px;}
+#logo h1{position: absolute;top: 0;}
+#logo p{padding-left: 280px;font-size: 28px;color: #666666;}
+
+
+#content{background: url(../images/a1.jpg) no-repeat;padding: 65px 65px 45px 65px;;min-width: 1200px;}
+#content .myform{z-index: 9999;position: relative;width: 350px;height: 386px;}
+#content .top{border-bottom: 1px #ccc solid;width: 350px;height: 55px;}
+#content .top h3{width: 174px;line-height: 55px;}
+#content .top h3:hover{color: #f60;}
+#content .top span{border-left:1px solid #ccc;height: 35px;margin-top: 10px;}
+#content .top span a{color: #666;}
+#content .login span a:hover{color: #f60;}
+#content .txt,#content .pwd{height: 40px;border: 1px solid #ccc;position: relative;}
+#content .txt .user,#content .pwd .mima{width: 40px;height: 40px;background: url(../images/login-icons.png) 1px 1px;}
+#content .pwd .mima{background: url(../images/login-icons.png) -47px 1px;}
+#content .txt input,#content .pwd input{width: 250px;height: 38px; border: 0;}
+#content .del{width:18px;height: 18px; background: url(../images/login-icons.png) -51px -140px;position: absolute;top: 10px;right: 10px;cursor: pointer;}
+#content .myform .pic{width: 16px;height: 16px;;background: url(../images/login-icons.png) -104px -75px #f60;transform: translateY(-2px);}
+#content .register a{color: #f60;}
+#content .myform .hover{position: absolute;top: 100px;left: 0;display: none;}
+#content .myform .hover .myerweima{margin-right: 10px;margin-left: 20px;}
+#content .myform .hover a{margin-right: 10px;}
+#content .myform .hover p{margin-left: 80px; height: 30px;}
+#content .myform .hover a:hover{color: #f60;}
+
+#content .hover .saoyisao{opacity:0.1;width: 0;height: 0;}
+#content .hover .myerweima{opacity:0.1;width: 0;height: 0;}
+#content .hover  p{display: none;}
+body input,body button{outline: none;}
+
+
+
+input::-webkit-input-placeholder{text-indent: 10px;}

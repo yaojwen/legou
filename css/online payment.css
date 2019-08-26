@@ -1,0 +1,46 @@
+
+
+
+#logo div:first-child{height: 77px;line-height: 77px;}
+#logo h1{position: absolute;top: 0;}
+#logo span a{color: rgb(56, 38, 219);text-decoration: underline;}
+
+#content .reminder{height: 60px;}
+#content .reminder span{line-height: 60px;}
+#content .reminder .right{margin-right: 90px;}
+#content .legouzhifu{margin: 10px 0;height: 40px;}
+#content .legouzhifu p{line-height: 40px;width: 150px;}
+#content .legouzhifu span{line-height: 40px;}
+#content .card div:nth-child(2){padding: 0 20px;border: 2px solid #ccc}
+#content .card div:nth-child(2) i{margin-left: 35px;margin-right: 40px;}
+#content .card div{height: 32px;margin:30px 30px 30px 30px;line-height:32px;text-align: center; }
+#content .card div:nth-child(3){padding:0 5px;}
+#content .card div:first-child{border: 2px solid #ccc;margin-left:60px;width: 120px;position: relative;}
+#content .card .active .on{display: none; width: 10px;height: 10px;background: #f60;position: absolute;bottom: 0;right: 0;margin: 0;padding: 0;border: 0;}
+#content .card .active .on::before {content: '';position: absolute;width: 2px;height: 5px;color: #fff;border-bottom: 1px solid;border-right: 1px solid;left: 50%;top: 50%;transform-origin: center;transform: translate(-40%, -40%) rotate(25deg);}
+#content .payment{width: 230px;height: 60px;line-height: 60px;margin: 10px 0;}
+#content .elsepay{height: 40px;line-height: 40px;}
+#content .elsepay div{width: 150px;height: 40px;background: #76b0f5;}
+#content .WeChat ul li{height: 20px; float: left;padding: 35px 0; font-size: 16px;}
+#content .WeChat ul li:first-child{margin-left: 75px;}
+#content .WeChat ul li a{margin: 0 10px;}
+
+#content #selcetbox{border: 0; appearance:none;outline: none;width:auto;text-align:center;text-align-last: center;}
+#content .selcetbox{width: 105px !important;overflow: hidden;margin: 0 !important;padding: 0 !important;border: 0 !important;}
+#myerweima{display: none;}
+#myerweima img{position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%)}
+
+#content a:hover{color: #f60;font-weight: bold;font-size: 18px;}
+i{font-style: normal;}
+
+
+
+
+
+#confirm{width: 480px;height: 280px;border: 2px solid #bebebe;box-shadow: 2px 2px 2px rgb(94, 87, 87);position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);display: none;}
+#confirm span{line-height: 42px}
+#confirm .del{line-height: 38px;font-size: 30px;}
+#confirm img{width: 100px;height: 100px;}
+#confirm .true,#confirm .false{width: 120px;height: 40px;}
+@keyframes shake {0% {opacity: 1;}50% {opacity: 0.4;}100% {opacity: 1;}}
+.shake {animation: shake .5s infinite; }
